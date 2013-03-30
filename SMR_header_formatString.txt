@@ -1,0 +1,234 @@
+file_number			B
+block number		B
+test_sensor			B
+periodic			B
+sum_event			h
+nb_samples			I
+sampling			h
+nb_channel			B
+ch_peak_x			h
+ch_peak_y			h
+ch_peak_z			h
+free1 6 bytes		6s
+check_sum			b
+sw_revision			B
+ss_number ST:5		5s
+sync_offset			I
+sync_second			B
+sync_minute			B
+sync_hour			B
+sync_day			B
+sync_month			B
+sync_year			B
+sync_ok				B
+int_offset(sps)		h
+int_seconds			B
+int_minute			B
+int_hour			B
+int_day				B
+int_month			B
+int_year			B
+time_valid			B
+gnd					h
+bat_main			h
+bat_backup			h
+bat_module			h
+bat_card			h
+bat_lsb				B
+temperature			B
+rec_name			7s
+s_number			5s
+filter_freq			h
+filter_pole			B
+sw_version			B
+adc_resol			h
+ch_offset_x			h
+ch_offset_y			h
+ch_offset_z			h
+free2				6s
+ch_lsb_mant_x		h
+ch_lsb_exp_x		B
+ch_lsb_mant_y		h
+ch_lsb_exp_y		B
+ch_lsb_mant_z		h
+ch_lsb_exp_z		B
+free2				9s
+ch_units_x			5s
+ch_units_y			5s
+ch_units_z			5s
+free3				15s
+ch_names_x			3s
+ch_names_y			3s
+ch_names_z			3s
+free4				9s
+trigger_x			h
+trigger_y			h
+trigger_z			h
+free5				6s
+trig_mode			b
+prevent				B
+postevent			B
+trig_chan			B
+comment				30s
+sync_delay			h
+ac_lost				B
+nb_ac_lost			B
+day_lost			B
+month_lost			B
+year_lost			B
+nb_reset			B
+day_reset			B
+month_reset			B
+year_reset			B
+errors				B
+dwnld_event			B
+warning				B
+free6				c
+test_sel			B
+free7				2s
+test_anal1			B
+test_anal2			B
+test_hardw			B
+free8				c
+test_clock			B
+free9				c
+test_memory			B
+free10				c
+test_battery		B
+free11				c
+latitude			3s
+longitude			3s
+mask_anal1			B
+mask_anal2			B
+mask_hardw			B
+free12				c
+mask_clock			B
+free12				c
+mask_memory			B
+free13				c
+mask_battery		B
+DSP_settings		b
+engg_mode			B
+elevation			3s
+free14				2s
+
+
+
+this is the format string add '<' to the front to make it little endian
+B B B B h I h B h h h 6s b B 5s I B B B B B B B h B B B B B B B h h h h h B B 7s 5s h B B h h h h 6s h B h B h B 9s 5s 5s 5s 15s 3s 3s 3s 9s h h h 6s b B B B 30s h B B B B B B B B B B B B c B 2s B B B c B c B c B c 3s 3s B B B c B c B c B b B 3s 2s
+
+this is the dictionary
+
+file_number
+block number
+test_sensor
+periodic
+sum_event
+nb_samples
+sampling
+nb_channel
+ch_peak_x
+ch_peak_y
+ch_peak_z
+free1 6 bytes
+check_sum
+sw_revision
+ss_number ST:5
+sync_offset
+sync_second
+sync_minute
+sync_hour
+sync_day
+sync_month
+sync_year
+sync_ok
+int_offset(sps)
+int_seconds
+int_minute
+int_hour
+int_day
+int_month
+int_year
+time_valid
+gnd
+bat_main
+bat_backup
+bat_module
+bat_card
+bat_lsb
+temperature
+rec_name
+s_number
+filter_freq
+filter_pole
+sw_version
+adc_resol
+ch_offset_x
+ch_offset_y
+ch_offset_z
+free2
+ch_lsb_mant_x
+ch_lsb_exp_x
+ch_lsb_mant_y
+ch_lsb_exp_y
+ch_lsb_mant_z
+ch_lsb_exp_z
+free2
+ch_units_x
+ch_units_y
+ch_units_z
+free3
+ch_names_x
+ch_names_y
+ch_names_z
+free4
+trigger_x
+trigger_y
+trigger_z
+free5
+trig_mode
+prevent
+postevent
+trig_chan
+comment
+sync_delay
+ac_lost
+nb_ac_lost
+day_lost
+month_lost
+year_lost
+nb_reset
+day_reset
+month_reset
+year_reset
+errors
+dwnld_event
+warning
+free6
+test_sel
+free7
+test_anal1
+test_anal2
+test_hardw
+free8
+test_clock
+free9
+test_memory
+free10
+test_battery
+free11
+latitude
+longitude
+mask_anal1
+mask_anal2
+mask_hardw
+free12
+mask_clock
+free12
+mask_memory
+free13
+mask_battery
+DSP_settings
+engg_mode
+elevation
+free14				
