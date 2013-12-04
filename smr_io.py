@@ -1,3 +1,5 @@
+"""deprecated functions
+"""
 ##This module is going to be for extracting info and data from
 ##Syscom .smr files - recordings made by MR200x recrders.
 

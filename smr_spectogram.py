@@ -1,3 +1,5 @@
+"""make a spectogram of a syscom recorder data file
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.mlab import detrend, detrend_linear, detrend_mean, normpdf

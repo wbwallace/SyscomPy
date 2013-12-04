@@ -1,3 +1,5 @@
+"""generic testing stuff
+"""
 ## this works - at least for the testfile (which should be good enough)
 ##              compared it to a to_ascii conversion
 

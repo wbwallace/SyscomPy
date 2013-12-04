@@ -1,3 +1,4 @@
 There are 19 Syscom siesmic recorders at DCPP.
 Every four weeks each recorder performs a selftest which creates an event file.
 Analyzing the selftest event file may help deduce the health of the recorder.
+Searching and categorizing logfiles
